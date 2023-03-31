@@ -1,0 +1,6 @@
+Germany  (2545,630)
+Rome  (2545,850)
+Japan  (5438,993)
+Washington   (509,887)
+Britain  (2239,587)
+Kuybyshev  (3437,502)
