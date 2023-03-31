@@ -1,0 +1,3 @@
+map_name: axis_ascension
+games:
+- {game_name: Axis Ascension, file_name: axis_ascension.xml}
