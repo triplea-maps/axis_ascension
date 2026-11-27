@@ -1,38 +1,242 @@
-<![CDATA[
+<html>
+<body bgcolor="DADADA" align="center">
 
-Axis Ascension<br>
+<div style="text-align: center;">
 <br>
-A WWII scenario.<br>
+<img src="preview.png"/>
+  	
+<br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:660000;">Axis Ascension</span></b><span style="font-size:280%;color:000000;"></span>
 <br>
-Gameplay Features:<br>
-- V3 Rules.<br>
-- Collecting incomes before rounds.<br>
-- Each naval point has a 25% chance to spawn a submarine/destroyer.<br>
-- No Strategic Bombing.<br>
-- No building new factories.<br>
-- Captured factories cannot be used.<br>
-- Japan and The Soviet Union has an unbreakable non-aggression pact.<br>
-- Cairo, Panama, Gibraltar and Germany are canals.<br>
-- Combatant aaGuns.<br>
-- Harbours add +2 movements to naval units.<br>
+
+<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.2</b></span></th>
 <br>
-Countries:<br>
 <br>
-	Axis:<br>
-		Germany<br>
-		Italy<br>
-		Japan<br>						
+
+<b>A WWII scenario set in the spring of 1942</b> <br>
+<b>Capture two enemy capitals to win</b> <br>
+<b>Last Update: November 2026</b> <br>
+<b>Created By Navalland</b> <br>
+
+<b>Note: The balance of the game hasn't been extensively tested yet. Feel free to use bids if you think it's needed.</b> <br>
+
+<br>Special thanks to Black_Elk for designing the relief tiles, and to Vendetta for the unit balance.
 <br>
-	Allies:<br>
-		The British Empire<br>
-		The United States<br>
-		The Soviet Union<br>						
-		<br>
-Victory Condition:<br>
-	Capture an enemy capital.<br>
+
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Features</b></span>
+<br>==========================================================
 <br>
-Special thanks to Black_Elk for designing the relief tiles.<br>
+
+<br> Income is collected before each round.<br>
+<br> New factories cannot be built, and captured factories cannot be used.<br>
+<br> Transports and submarines follow v3 rules.<br>
+<br> Valueless territories have no connections. The Arctic Ocean is impassable beyond Arkhangelsk, and the Leningrad–Baltic connection is also closed.<br>
+<br> Sicily and Naples are connected.<br>
+<br> The Soviet Union and Japan are neutral toward each other. The Western Allies and the Soviets cannot land in each other’s territories.<br>
+<br> Factories can be bombed up to their territory's IPC value.<br>
+<br> Air units get +1 attack/defense vs. surface ships. Destroyers get +3 attack/defense vs. submarines. Battleships get +2 attack/defense vs. surface ships.<br>
+<br> Factories, cruisers, and battleships are equipped with their own anti-aircraft guns.<br>
+<br> Anti-aircraft guns and factories can fire at enemy planes flying over their territory.<br>
+<br> Anti-aircraft guns are destroyed upon capture.<br>
+<br> Shore bombardment is limited to one shot per landing ground unit, and casualties from naval bombardment may return fire.<br>
+<br> You can still collect income and mobilize units even after losing your capital.<br>
+
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:110%;000000"bgcolor="FEECE2"colspan="2">Alliances</th>
+	</tr>
+	<tr>
+	<th bgcolor="ABABAB">Axis</th>
+	<th bgcolor="BDBDBD">Allies</th>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Germany</td>
+	<td bgcolor="BDBDBD">Soviet Union</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Italy</td>
+	<td bgcolor="BDBDBD">United Kingdom</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Japan</td>
+	<td bgcolor="BDBDBD">United States</td>
+	</tr>
+</table>
+
 <br>
-Still in progress...<br>
-NAVALLAND 2023<br>
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Units</b></span>
+<br>==========================================================
 <br>
+<br>Size=transport cost
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="7">Land Units</th>
+	</tr>
+
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="BDBDBD">
+	<td>Infantry</td>
+	<td>0</td>
+	<td>3</td>
+	<td>1</td>
+	<td>6</td>
+	<td>2</td>
+	<td>supportable</td>
+	</tr>
+	
+	<tr>
+	<td>Artillery</td>
+	<td>2</td>
+	<td>2</td>
+	<td>1</td>
+	<td>8</td>
+	<td>3</td>
+	<td>supports</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Armour</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>10</td>
+	<td>3</td>
+	<td>can blitz</td>
+	</tr>
+
+	<tr>	
+	<td>Fighter</td>
+	<td>2</td>
+	<td>3</td>
+	<td>4</td>
+	<td>16</td>
+	<td>1</td>
+	<td>+1 attack/defense vs. surface ships; can escort or intercept</td>
+	</tr>
+
+ 	<tr bgcolor="BDBDBD">
+	<td>Bomber</td>
+	<td>3</td>
+	<td>1</td>
+	<td>6</td>
+	<td>20</td>
+	<td></td>
+	<td>1 attack/defense vs. surface ships; strategic bomber</td>
+	</tr>
+	
+ 	<tr>
+	<td>Transport</td>
+	<td>0</td>
+	<td>0</td>
+	<td>3</td>
+	<td>14</td>
+	<td></td>
+	<td>5 transport capacity, cannot defend and cannot be taken as casualty</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Submarine</td>
+	<td>2</td>
+	<td>2</td>
+	<td>3</td>
+	<td>12</td>
+	<td></td>	
+	<td>can submerge, first strike</td>
+	</tr>
+
+	<tr>
+	<td>Destroyer</td>
+	<td>1</td>
+	<td>1</td>
+	<td>3</td>
+	<td>15</td>
+	<td></td>	
+	<td>anti-submarine; 3 attack vs. submarines</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Cruiser</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>20</td>
+	<td></td>	
+	<td>1d6 vs each attacking plane; can bombard</td>
+	</tr>
+
+ 	<tr>
+	<td>Carrier</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+	<td>32</td>
+	<td></td>	
+	<td>carry fighters</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Battleship</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>38</td>
+	<td></td>	
+	<td>1d6 vs each attacking plane; can bombard, 2 hit</td>
+	</tr>	
+	
+	<tr>
+	<td>aaGun</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+	<td>10</td>
+	<td></td>
+	<td>1d6 vs each attacking plane</td>
+	</tr>	
+
+	<tr bgcolor="BDBDBD">
+	<td>Bunker</td>
+	<td>0</td>
+	<td>3</td>
+	<td>0</td>
+	<td></td>
+	<td></td>	
+	<td>2 hit</td>
+	</tr>	
+	
+	<tr>
+	<td>Factory</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td></td>
+	<td></td>
+	<td>Allows units to be placed, can be  bombed</td>
+	</tr>
+		
+	<tr>
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+</body>
+</html>
